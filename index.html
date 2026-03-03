@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musique And CO | Experience Royale</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Syncopate:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="loader">
+        <div class="loader-content">
+            <span class="loader-text">MUSIC & CO</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Nav -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo magnetic" data-strength="20">M&CO<span class="blue-square"></span></a>
+            <ul class="nav-links">
+                <li><a href="#instruments-experience" class="magnetic" data-strength="10">Cours<span
+                            class="blue-square-nav"></span></a></li>
+                <li><a href="#tarifs" class="magnetic" data-strength="10">Tarifs<span
+                            class="blue-square-nav"></span></a></li>
+                <li><a href="#contact-section" class="magnetic" data-strength="10">Contact<span
+                            class="blue-square-nav"></span></a></li>
+            </ul>
+            <a href="#contact-section" class="btn-cta magnetic" data-strength="30">
+                <span class="btn-text">Rejoindre l'élite</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- 1. Piano Scroll Transition (Intro Portal) -->
+    <section id="piano-transition">
+        <div class="piano-wrapper">
+            <!-- Logo révélé derrière le piano -->
+            <div class="piano-reveal-logo">
+                <div class="piano-logo-text">M<span class="piano-logo-amp">&</span>CO</div>
+                <div class="piano-logo-tagline">L'EXCELLENCE MUSICALE</div>
+            </div>
+            <div class="piano-container">
+                <div class="piano-half left">
+                    <div class="keys-container"></div>
+                </div>
+                <div class="piano-half right">
+                    <div class="keys-container"></div>
+                </div>
+            </div>
+            <div class="transition-overlay">
+                <h2>OUVREZ LES PORTES</h2>
+                <div class="scroll-prompt">SCROLLEZ POUR RÉVÉLER</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Hero Section (Main Entry) -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="gradient-sphere"></div>
+            <div class="gradient-sphere secondary"></div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-title-line scroll-reveal-word">
+                    <h1>L'EXCELLENCE</h1>
+                </div>
+                <div class="hero-title-line scroll-reveal-word word-delay" style="--delay: 0.25s;">
+                    <h1 class="outline">MUSICALE</h1>
+                </div>
+                <p class="scroll-reveal-word" style="--delay: 0.5s;">La musique, une symphonie, une poésie....<br>Vivez
+                    l'immersion totale à Aulnay-sous-Bois.</p>
+
+            </div>
+            <div class="hero-visuals">
+                <div class="floating-img img-1 reveal-up">
+                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=800" alt="Studio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee-inner">
+            <span>PIANO <span class="separator">•</span> GUITARE <span class="separator">•</span> BATTERIE <span
+                    class="separator">•</span> BASSE <span class="separator">•</span> CHANT <span
+                    class="separator">•</span> STUDIO <span class="separator">•</span> MIXAGE <span
+                    class="separator">•</span> </span>
+            <span>PIANO <span class="separator">•</span> GUITARE <span class="separator">•</span> BATTERIE <span
+                    class="separator">•</span> BASSE <span class="separator">•</span> CHANT <span
+                    class="separator">•</span> STUDIO <span class="separator">•</span> MIXAGE <span
+                    class="separator">•</span> </span>
+            <span>PIANO <span class="separator">•</span> GUITARE <span class="separator">•</span> BATTERIE <span
+                    class="separator">•</span> BASSE <span class="separator">•</span> CHANT <span
+                    class="separator">•</span> STUDIO <span class="separator">•</span> MIXAGE <span
+                    class="separator">•</span> </span>
+            <span>PIANO <span class="separator">•</span> GUITARE <span class="separator">•</span> BATTERIE <span
+                    class="separator">•</span> BASSE <span class="separator">•</span> CHANT <span
+                    class="separator">•</span> STUDIO <span class="separator">•</span> MIXAGE <span
+                    class="separator">•</span> </span>
+        </div>
+    </section>
+
+    <!-- Tablet Experience Section -->
+    <section id="instruments-experience" class="section-padding">
+        <div class="container">
+            <div class="section-header-modern reveal-up">
+                <h2 class="sub">IMMERSION</h2>
+                <h2 class="main-title">LA MUSIQUE, UNE SYMPHONIE, UNE POÉSIE...</h2>
+            </div>
+
+            <div class="tablet-mockup reveal-up">
+                <div class="tablet-frame">
+                    <div class="tablet-navbar">
+                        <div class="tablet-logo">M&CO<span class="blue-square"></span></div>
+                        <div class="tablet-nav-links">
+                            <span>Cours</span>
+                            <span>Tarifs</span>
+                            <span>Contact</span>
+                        </div>
+                    </div>
+                    <div class="tablet-screen">
+                        <div class="instruments-slider">
+                            <!-- Slide 1: Piano -->
+                            <div class="instr-slide active">
+                                <div class="slide-content">
+                                    <div class="slide-text">
+                                        <h3>PIANO</h3>
+                                        <p>L'élégance des touches, la pureté du son. Maîtrisez l'instrument roi sous
+                                            toutes ses formes.</p>
+                                    </div>
+                                    <div class="slide-media">
+                                        <img src="https://images.unsplash.com/photo-1552422535-c45813c61732?q=80&w=800"
+                                            alt="Piano">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2: Guitare -->
+                            <div class="instr-slide">
+                                <div class="slide-content reverse">
+                                    <div class="slide-media">
+                                        <img src="https://images.unsplash.com/photo-1550985616-10810253b84d?q=80&w=800"
+                                            alt="Guitare">
+                                    </div>
+                                    <div class="slide-text">
+                                        <h3>GUITARE</h3>
+                                        <p>Vibrez au son des cordes. Électrique ou acoustique, exprimez votre créativité
+                                            sans limites.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3: Batterie -->
+                            <div class="instr-slide">
+                                <div class="slide-content">
+                                    <div class="slide-text">
+                                        <h3>BATTERIE</h3>
+                                        <p>Le cœur battant de la musique. Apprenez le rythme et domptez l'énergie du
+                                            studio.</p>
+                                    </div>
+                                    <div class="slide-media">
+                                        <img src="assets/drums.png" alt="Batterie">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partition Vivante -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="section-header-modern reveal-up">
+                <h2 class="sub">ACADÉMIE</h2>
+                <h2>PARTITION <span class="accent">VIVANTE</span></h2>
+                <p style="max-width: 600px; margin: 20px auto;">Une symphonie visuelle où les notes s'animent pour
+                    illustrer notre approche pédagogique.</p>
+            </div>
+
+            <div class="experience-visual reveal-up tilt-card centered-visual">
+                <div class="video-container glass-card">
+                    <canvas id="redemption-canvas"></canvas>
+                    <div class="video-overlay">
+                        <div class="video-timer">LIVE XP</div>
+                        <div class="video-status">REDEMPTION ENGINE v1.2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats animées -->
+    <section id="stats-section" class="section-padding stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-up">
+                    <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                    <p class="stat-label">Élèves formés</p>
+                </div>
+                <div class="stat-item reveal-up" style="transition-delay:0.1s">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-suffix"> ans</span>
+                    <p class="stat-label">D'expérience</p>
+                </div>
+                <div class="stat-item reveal-up" style="transition-delay:0.2s">
+                    <span class="stat-number" data-target="3">0</span><span class="stat-suffix"></span>
+                    <p class="stat-label">Instruments maîtrisés</p>
+                </div>
+                <div class="stat-item reveal-up" style="transition-delay:0.3s">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+                    <p class="stat-label">De passion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section id="tarifs" class="section-padding">
+        <div class="container">
+            <div class="section-header-modern reveal-up">
+                <h2 class="sub">NOS OFFRES</h2>
+                <h2>FORFAITS</h2>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-pro reveal-up tilt-card">
+                    <span class="badge">Standard</span>
+                    <h3 class="price-big">75€<span class="period">/m</span></h3>
+                    <p class="pricing-desc">1h de cours hebdomadaire</p>
+                    <a href="#contact-section" class="btn-primary-outline magnetic">Commencer</a>
+                </div>
+                <div class="pricing-pro premium reveal-up tilt-card" style="transition-delay: 0.15s;">
+                    <span class="badge premium-badge">Le Choix des Pros</span>
+                    <h3 class="price-big accent-text">140€<span class="period">/m</span></h3>
+                    <p class="pricing-desc">2h intensif + masterclass</p>
+                    <a href="#contact-section" class="btn-primary full-width magnetic">Passer au niveau supérieur</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planning / Créneaux disponibles -->
+    <section id="planning" class="section-padding">
+        <div class="container">
+            <div class="section-header-modern reveal-up">
+                <h2 class="sub">ORGANISATION</h2>
+                <h2>CRÉNEAUX <span class="accent">DISPONIBLES</span></h2>
+            </div>
+            <div class="planning-grid reveal-up">
+                <div class="planning-day">
+                    <div class="day-header">LUNDI</div>
+                    <div class="slot available"><i class="fa-solid fa-music"></i> 14h00 — Piano</div>
+                    <div class="slot available"><i class="fa-solid fa-guitar"></i> 16h00 — Guitare</div>
+                    <div class="slot taken"><i class="fa-solid fa-drum"></i> 18h00 — Batterie</div>
+                    <div class="slot available"><i class="fa-solid fa-music"></i> 20h00 — Piano</div>
+                </div>
+                <div class="planning-day">
+                    <div class="day-header">MERCREDI</div>
+                    <div class="slot taken"><i class="fa-solid fa-music"></i> 10h00 — Piano</div>
+                    <div class="slot available"><i class="fa-solid fa-guitar"></i> 14h00 — Guitare</div>
+                    <div class="slot available"><i class="fa-solid fa-drum"></i> 16h00 — Batterie</div>
+                    <div class="slot taken"><i class="fa-solid fa-music"></i> 18h00 — Piano</div>
+                </div>
+                <div class="planning-day">
+                    <div class="day-header">VENDREDI</div>
+                    <div class="slot available"><i class="fa-solid fa-music"></i> 14h00 — Piano</div>
+                    <div class="slot taken"><i class="fa-solid fa-guitar"></i> 16h00 — Guitare</div>
+                    <div class="slot available"><i class="fa-solid fa-drum"></i> 18h00 — Batterie</div>
+                    <div class="slot available"><i class="fa-solid fa-music"></i> 20h00 — Piano</div>
+                </div>
+                <div class="planning-day">
+                    <div class="day-header">SAMEDI</div>
+                    <div class="slot available"><i class="fa-solid fa-music"></i> 09h00 — Piano</div>
+                    <div class="slot available"><i class="fa-solid fa-guitar"></i> 11h00 — Guitare</div>
+                    <div class="slot taken"><i class="fa-solid fa-drum"></i> 14h00 — Batterie</div>
+                    <div class="slot available"><i class="fa-solid fa-guitar"></i> 16h00 — Guitare</div>
+                </div>
+            </div>
+            <p class="planning-note reveal-up">
+                <i class="fa-solid fa-circle-info"></i>
+                <span class="slot-legend avail-legend"></span> Disponible &nbsp;·&nbsp;
+                <span class="slot-legend taken-legend"></span> Réservé — Appelez le 06 14 30 97 62 pour réserver.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="section-header-modern reveal-up">
+                <h2 class="sub">QUESTIONS</h2>
+                <h2>FAQ</h2>
+            </div>
+            <div class="faq-list reveal-up">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>À partir de quel âge peut-on commencer ?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nos cours sont ouverts dès <strong>6 ans</strong> pour le piano et la guitare. La batterie
+                            est recommandée à partir de <strong>8 ans</strong>. Pas d'âge maximum — nous accueillons
+                            aussi les adultes débutants.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Faut-il posséder son propre instrument ?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Non ! Nos instruments sont disponibles pendant les cours. Nous vous conseillons cependant
+                            d'investir dans un instrument personnel pour pratiquer — et nous pouvons vous guider.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Les cours sont-ils individuels ou en groupe ?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tous nos cours sont en <strong>individuel</strong> pour un suivi 100% personnalisé. Des
+                            ateliers collectifs mensuels sont aussi organisés pour jouer ensemble.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Quelle est la durée minimale d'engagement ?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Formule <strong>mensuelle sans engagement</strong>. Arrêt ou changement possible avec 2
+                            semaines de préavis en fin de mois.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Proposez-vous des cours en ligne ?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oui, des cours en <strong>visioconférence</strong> (Zoom / Google Meet) sont disponibles avec
+                            la même qualité pédagogique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (formulaire enrichi) -->
+    <section id="contact-section" class="section-padding">
+        <div class="container">
+            <div class="section-header-modern reveal-up">
+                <h2 class="sub">NOUS TROUVER</h2>
+                <h2>REJOINDRE <span class="accent">L'ÉLITE</span></h2>
+            </div>
+            <div class="contact-full-grid">
+                <div class="contact-infos">
+                    <div class="contact-item reveal-left">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h3>Adresse</h3>
+                        <p>10 Av. Dumont,<br>93600 Aulnay-sous-Bois</p>
+                    </div>
+                    <div class="contact-item reveal-left" style="transition-delay:.15s">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <h3>Téléphone</h3>
+                        <p>06 14 30 97 62</p>
+                        <a href="tel:0614309762" class="btn-primary-outline small">Appeler</a>
+                    </div>
+                    <div class="contact-item reveal-left" style="transition-delay:.3s">
+                        <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                        <h3>Horaires</h3>
+                        <p><span class="status-open">Ouvert</span><br>Ferme à 21:30</p>
+                    </div>
+                </div>
+                <form class="contact-form reveal-right" id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="f-name">Prénom *</label>
+                            <input type="text" id="f-name" name="name" placeholder="Votre prénom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="f-email">Email *</label>
+                            <input type="email" id="f-email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="f-instrument">Instrument souhaité</label>
+                        <select id="f-instrument" name="instrument">
+                            <option value="">Choisir un instrument…</option>
+                            <option>Piano</option>
+                            <option>Guitare</option>
+                            <option>Batterie</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="f-niveau">Niveau actuel</label>
+                        <select id="f-niveau" name="niveau">
+                            <option value="">Votre niveau…</option>
+                            <option>Débutant complet</option>
+                            <option>Quelques notions</option>
+                            <option>Intermédiaire</option>
+                            <option>Avancé</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="f-message">Message</label>
+                        <textarea id="f-message" name="message" rows="4"
+                            placeholder="Parlez-nous de votre projet…"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary form-submit">
+                        <span>Envoyer ma demande</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <div class="form-success" id="form-success">
+                        <i class="fa-solid fa-circle-check"></i> Message envoyé ! Réponse sous 24h.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="epic-footer">
+        <div class="container footer-grid-2026">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo big">M&CO<span class="blue-square"></span></a>
+                <p>© 2026 Music & CO — L'excellence musicale à Aulnay-sous-Bois</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lecteur audio flottant (Web Audio API) -->
+    <div class="audio-player" id="audio-player">
+        <button class="audio-toggle" id="audio-toggle" aria-label="Lecteur audio">
+            <i class="fa-solid fa-play" id="audio-icon"></i>
+        </button>
+        <div class="audio-info">
+            <span class="audio-title">M&CO — Ambiance Studio</span>
+            <div class="audio-progress-wrap">
+                <div class="audio-progress-bar" id="audio-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GSAP & Core Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
